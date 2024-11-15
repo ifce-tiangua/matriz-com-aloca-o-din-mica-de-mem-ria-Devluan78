@@ -8,7 +8,7 @@ int main(){
 
    scanf("%d %d",&linhas,&colunas);
 
-   if(linhas == 0){
+   if(linhas == 0 || colunas == 0){
      printf("matriz vazia");
    }
   
