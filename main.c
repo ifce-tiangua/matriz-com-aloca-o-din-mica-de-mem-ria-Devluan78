@@ -27,6 +27,7 @@ int main(){
       for(int j=0;j<colunas;j++){
            printf("%d ",mat[i][j]);
       }
+       printf("\n");
    }
   
    for(int i=0;i<linhas;i++){
