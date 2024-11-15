@@ -32,6 +32,7 @@ int main(){
    for(int i=0;i<linhas;i++){
     free(mat[i]);
    }
-
+    free(mat);
+    
     return 0;
 }
