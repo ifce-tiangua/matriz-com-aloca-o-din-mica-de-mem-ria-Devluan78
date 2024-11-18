@@ -22,14 +22,14 @@ int main(){
            scanf("%d",&mat[i][j]);
       }
    }
-
+   printf("'");
    for(int i=0;i<linhas;i++){
       for(int j=0;j<colunas;j++){
            printf("%d ",mat[i][j]);
       }
        printf("\n");
    }
-  
+   printf("'");
    for(int i=0;i<linhas;i++){
     free(mat[i]);
    }
