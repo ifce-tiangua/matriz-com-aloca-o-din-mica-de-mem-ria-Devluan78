@@ -9,8 +9,8 @@ int main(){
    scanf("%d %d",&linhas,&colunas);
 
    if(linhas == 0 || colunas == 0){
-     printf("matriz vazia");
-   }
+     printf("[matriz vazia]");
+   }else {
   
    **mat = (int**)malloc(linhas*sizeof(int*));
 
@@ -34,6 +34,6 @@ int main(){
     free(mat[i]);
    }
     free(mat);
-    
+   }   
     return 0;
 }
