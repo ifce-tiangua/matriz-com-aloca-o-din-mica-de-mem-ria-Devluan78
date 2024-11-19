@@ -7,7 +7,7 @@ int main(){
    int linhas,colunas;
 
    scanf("%d %d",&linhas,&colunas);
-
+    
    if(linhas == 0 ){
      printf("[matriz vazia]");
    }else {
