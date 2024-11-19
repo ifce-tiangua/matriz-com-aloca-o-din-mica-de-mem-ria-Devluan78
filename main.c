@@ -8,7 +8,7 @@ int main(){
 
    scanf("%d %d",&linhas,&colunas);
 
-   if(linhas == 0 || colunas == 0){
+   if(linhas == 0 ){
      printf("[matriz vazia]");
    }else {
   
@@ -24,7 +24,11 @@ int main(){
    }
    for(int i=0;i<linhas;i++){
       for(int j=0;j<colunas;j++){
-           printf("%d ",mat[i][j]);
+           printf("%d", mat[i][j]);
+           if(j != colunas-1){
+            printf(" ");
+           }
+           
       }
        printf("\n");
    }
